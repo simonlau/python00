@@ -75,3 +75,8 @@ A `main.py` helper file is provided to import and test exercise functions automa
 Submit only the individual Python function files requested by each exercise. The repository structure and file names will be evaluated during defense, where you may be asked to explain your code, trace execution, or modify solutions.
 
 Focus on clean, readable code that demonstrates understanding of Python fundamentals.
+
+## See Also
+
+- [Python Type Checking](python-type-checking.md)
+- [Python 3.10](python-3.10.md)
