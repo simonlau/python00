@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows,osx,linux,python,visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,osx,linux,python,visualstudiocode
+# Created by https://www.toptal.com/developers/gitignore/api/osx,linux,python,windows,visualstudiocode,obsidian
+# Edit at https://www.toptal.com/developers/gitignore?templates=osx,linux,python,windows,visualstudiocode,obsidian
 
 ### Linux ###
 *~
@@ -15,6 +15,10 @@
 
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
+
+### Obsidian ###
+# config dir
+.obsidian/
 
 ### OSX ###
 # General
@@ -262,4 +266,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,osx,linux,python,visualstudiocode
+# End of https://www.toptal.com/developers/gitignore/api/osx,linux,python,windows,visualstudiocode,obsidian
