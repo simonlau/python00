@@ -1,0 +1,12 @@
+repos:
+  - repo: https://github.com/pycqa/flake8
+    rev: 7.4.1 # Replace with the latest version or git tag
+    hooks:
+      - id: flake8
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v2.4.1  # Replace with the latest version or git tag
+    hooks:
+      - id: mypy
+        # Add third-party type stubs here if your project needs them
+        additional_dependencies: [] 
