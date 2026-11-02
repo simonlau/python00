@@ -1,0 +1,38 @@
+{
+  "LANGUAGE": {
+    "0": [
+      "name",
+      "constant",
+      "f-string",
+      "function call",
+      "def",
+      "=",
+      "+",
+      "-",
+      ">",
+      "<",
+      "*",
+      "+=",
+      "print"
+    ],
+    "1": [
+      "input"
+    ],
+    "2": [
+      "int"
+    ],
+    "4": [
+      "if"
+    ],
+    "5": [
+      "super"
+    ],
+    "6": [
+      "for",
+      "range",
+      "=="
+    ]
+  },
+  "IMPORTS": {},
+  "METHODS": {}
+}
