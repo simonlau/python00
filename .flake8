@@ -1,7 +1,4 @@
 [flake8]
-# Enforce standard PEP 8 line length limit strictly
-max-line-length = 88
-
 # Check for deep code nesting and logical complexity (McCabe complexity)
 max-complexity = 10
 
@@ -22,3 +19,7 @@ exclude =
     dist,
     build,
     docs
+
+show-source = True
+count = True
+statistics = True
