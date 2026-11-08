@@ -52,7 +52,6 @@ warn_unused_configs = true
 [dependency-groups]
 dev = [
     "allowed>=1.5.4",
-    "mypy>=2.4.1",
     "pre-commit>=4.6.2",
     "pyrefly>=1.4.0",
     "pytype>=2024.10.11",

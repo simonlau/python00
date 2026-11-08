@@ -1,4 +1,4 @@
-def ft_harvest_total() -> None:
+def ft_harvest_total() -> None:  # noqa: INP001
     day1 = int(input("Day 1 harvest: "))
     day2 = int(input("Day 2 harvest: "))
     day3 = int(input("Day 3 harvest: "))
