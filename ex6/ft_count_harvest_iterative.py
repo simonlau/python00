@@ -1,4 +1,4 @@
-def ft_count_harvest_iterative() -> None:  # noqa: INP001
+def ft_count_harvest_iterative() -> None:  # ruff: ignore[implicit-namespace-package]
     days = int(input("Days until harvest: "))
     for i in range(1, days + 1):
         if i == days:

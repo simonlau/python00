@@ -9,6 +9,11 @@ repos:
       # Run the formatter.
       - id: ruff-format
 
+  - repo: https://github.com/pycqa/flake8
+    rev: 7.5.0  # Use the latest stable git tag or commit hash
+    hooks:
+      - id: flake8
+
   - repo: https://github.com/facebook/pyrefly-pre-commit
     rev: 1.4.1  # Replace with the latest stable tag or commit SHA
     hooks:
@@ -23,5 +28,10 @@ repos:
       - id: mypy
         # Add third-party type stubs here if your project needs them
         additional_dependencies: [] 
-        
+  
+  - repo: https://github.com/astral-sh/ty-pre-commit
+    # ty version.
+    rev: v0.0.99
+    hooks:
+      - id: ty
 

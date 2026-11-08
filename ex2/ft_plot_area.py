@@ -1,4 +1,4 @@
-def ft_plot_area() -> None:  # noqa: INP001
+def ft_plot_area() -> None:  # ruff: ignore[implicit-namespace-package]
     length = int(input("Enter length: "))
     width = int(input("Enter width: "))
     area = length * width
