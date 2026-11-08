@@ -9,9 +9,16 @@ repos:
       # Run the formatter.
       - id: ruff-format
 
+  - repo: https://github.com/facebook/pyrefly-pre-commit
+    rev: v1.4.1  # Replace with the latest stable tag or commit SHA
+    hooks:
+      - id: pyrefly-check
+  
   - repo: https://github.com/pre-commit/mirrors-mypy
     rev: v2.4.1  # Replace with the latest version or git tag
     hooks:
       - id: mypy
         # Add third-party type stubs here if your project needs them
         additional_dependencies: [] 
+        
+
