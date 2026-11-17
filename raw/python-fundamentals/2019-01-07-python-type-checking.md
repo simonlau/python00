@@ -2232,7 +2232,7 @@ You can run mypy on this file as usual:
 Language: Shell
 
 ```
-$ mypy cosine.py 
+$ mypy cosine.py
 cosine.py:3: error: No library stub file for module 'numpy'
 cosine.py:3: note: (Stub files are from https://github.com/python/typeshed)
 ```
@@ -2244,7 +2244,7 @@ In most cases, missing type hints in third-party packages is not something you w
 Language: Shell
 
 ```
-$ mypy --ignore-missing-imports cosine.py 
+$ mypy --ignore-missing-imports cosine.py
 Success: no issues found in 1 source file
 ```
 
@@ -2340,7 +2340,7 @@ Next run Mypy on the program:
 Language: Shell
 
 ```
-$ mypy parse_name.py 
+$ mypy parse_name.py
 parse_name.py:3: error: Cannot find module named 'parse'
 parse_name.py:3: note: (Perhaps setting MYPYPATH or using the
                        "--ignore-missing-imports" flag would help)

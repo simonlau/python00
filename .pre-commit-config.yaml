@@ -1,3 +1,5 @@
+exclude: "^.agents/"
+
 repos:
   - repo: https://github.com/commitizen-tools/commitizen
     rev: v4.1.0
@@ -14,6 +16,7 @@ repos:
       - id: check-yaml
       - id: check-json
       - id: pretty-format-json
+        args: ['--autofix', '--indent=2', '--no-ensure-ascii']
       - id: check-toml
       - id: check-xml
       - id: requirements-txt-fixer

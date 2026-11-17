@@ -26,19 +26,19 @@ select = [
 ]
 
 ignore = [
-    "undocumented-public-module", 
-    "undocumented-public-class", 
+    "undocumented-public-module",
+    "undocumented-public-class",
     "undocumented-public-method",
-    "undocumented-public-function", 
-    "undocumented-public-package", 
-    "undocumented-magic-method",  
-    "undocumented-public-init",  
-    "incorrect-blank-line-before-class", 
-    "multi-line-summary-second-line",  
-    "missing-trailing-comma", 
-    "single-line-implicit-string-concatenation", 
-    "missing-copyright-notice", 
-    "print",  
+    "undocumented-public-function",
+    "undocumented-public-package",
+    "undocumented-magic-method",
+    "undocumented-public-init",
+    "incorrect-blank-line-before-class",
+    "multi-line-summary-second-line",
+    "missing-trailing-comma",
+    "single-line-implicit-string-concatenation",
+    "missing-copyright-notice",
+    "print",
 ]
 
 # Ensure you enforce type checking annotations strictly
@@ -70,4 +70,3 @@ dev = [
     "pyrefly>=1.4.0",
     "pytype>=2024.10.11",
 ]
-
