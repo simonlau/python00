@@ -1,14 +1,11 @@
 [flake8]
 # Check for deep code nesting and logical complexity (McCabe complexity)
-max-complexity = 10
+max-complexity = 7
 
-# Explicitly clear out Flake8's default ignore list to enable ALL rules
+# Override Flake8's default ignore list
+# By default, Flake8 ignores E121, E123, E126, E226, E24, E704, W503, and W504.
+# Setting ignore to empty enforces strict PEP 8 compliance.
 ignore =
-
-# Enable specific structural rules that are often turned off by default
-# E203: Whitespace before ':' (disabled only if using Black formatter compatibility)
-# W503/W504: Line breaks before/after binary operators
-extend-select = E,F,W,C
 
 # Exclude typical auto-generated or external dependency directories
 exclude =
@@ -20,6 +17,8 @@ exclude =
     build,
     docs
 
+
+# Output and statistics
 show-source = True
 count = True
 statistics = True
